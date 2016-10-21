@@ -1,0 +1,62 @@
+body{
+	background-color: white;
+	margin: 0;
+	margin-top: -20px;
+}
+.sectionHeader{
+	background-color: #D35400;
+	color: white;
+	height: 35px;
+}
+.sectionHeader h3{
+	padding-top: 7px;
+}
+.sectionBody{
+	color: #1E88E5;
+	padding: 15px 25px 15px 25px;
+	line-height: 1.8;
+}
+.sectionBody label{
+	color: #00BCD4;
+	float: left;
+	position: absolute;
+	left: 47px;
+}
+.selectBox{
+	margin-bottom: 10px;
+	width: 18%;
+	height: 30px;
+	position: absolute;
+	left: 47px;
+}
+#trendDataSection{
+	background-color: #F3F0F0;
+	width: 25%;
+	float: left;
+}
+#trendGraphSection{
+	width: 70%;
+	float: left;
+	color: #7E8893;
+}
+@media (max-width: 767px) {
+	#trendDataSection{
+		width: 100%;
+	}
+	#trendGraphSection{
+		width: 100%;
+	}
+	.selectBox{
+		width: 90%;
+	}
+}
+@media (max-width: 500px) {
+	.selectBox{
+		width: 70%;
+	}
+}
+@media (max-width: 400px) {
+	.selectBox{
+		width: 60%;
+	}
+}
